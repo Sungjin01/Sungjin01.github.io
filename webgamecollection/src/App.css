@@ -24,13 +24,13 @@
 }
 
 .App-menu {
-  flex: 9;
+  flex: 8;
   justify-content: center;
 }
 
 .App-menu div{
-  display: block;
-  padding: 5vw;
+  display: inline-block;
+  padding: 0 3vw;
 }
 
 .App-link {

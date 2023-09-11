@@ -6,16 +6,11 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+
         <div className="App-menu">
-          <div>
-            Arcade
-          </div>
-          <div>
-            BoardGame
-          </div>
-          <div>
-            Action
-          </div>
+          <div>Arcade</div>
+          <div>BoardGame</div>
+          <div>Action</div>
           <div>
             <a
             className="App-link"
@@ -26,8 +21,9 @@ function App() {
               Learn React
             </a>
           </div>
-          
         </div>
+        
+        <img src={logo} className="App-logo" alt="logo" />
       </header>
     </div>
   );
